@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include edi *.css
+recursive-include edi *.csv
+recursive-include edi *.html
+recursive-include edi *.ico
+recursive-include edi *.js
+recursive-include edi *.json
+recursive-include edi *.md
+recursive-include edi *.png
+recursive-include edi *.py
+recursive-include edi *.svg
+recursive-include edi *.txt
+recursive-exclude edi *.pyc
